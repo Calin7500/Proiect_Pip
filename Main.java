@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
 	
 	public static void stats(Clasa clasa) {
+		System.out.println("MODIFICARE GIT");
 		System.out.println(clasa.getDescription());
 		System.out.println("Final stats:\nATK " + clasa.getATK() + "\nDEF " + clasa.getDEF() + "\nHP " + clasa.getHP());
 	}
